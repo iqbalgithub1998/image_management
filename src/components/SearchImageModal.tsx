@@ -1,5 +1,4 @@
 import React from 'react'
-import { AiOutlineClose } from 'react-icons/ai'
 import SearchImageGallary from './SearchImageGallary'
 import { Images } from '../app/type'
 import Modalheader from './Modalheader'
