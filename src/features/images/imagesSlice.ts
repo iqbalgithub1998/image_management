@@ -91,12 +91,11 @@ const imagesSlice = createSlice({
                 });
 
                 state.searchImages = [...searchData];
-                if(searchData.length===0){
-                    state.selectAll = false;
-                }
+                
             }
             state.images = [...imagesData];
-            
+            state.selectAll = false;
+
             state.checkedImages = [];
         },
         // in app search filter.....................
